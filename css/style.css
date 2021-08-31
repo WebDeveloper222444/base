@@ -1,0 +1,2146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;0,800;1,200;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,400;1,600;1,700;1,800&display=swap');
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+.card-base{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+}
+.btnOne:hover{
+    background-color: #1D92FF;
+    color: white;
+    border: 1px solid #1D92FF;
+}
+
+.btnOne{
+    position: absolute;
+    right: 0;
+    width: 147px;
+    height: 53px;
+    color: #1D92FF;
+    background-color: white;
+    border: 1px solid #1D92FF;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+}
+.navbar{
+    z-index: 1!important;
+}
+.headerNavbar{
+    padding-top: 40px;
+    background-color: #002547;
+}
+.navWords{
+    display:inline-block;
+    margin:0;
+    /*text-transform:uppercase;*/
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    /*line-height: 130%;*/
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.6) !important;
+}
+.navWords:hover{
+    color: white!important;
+}
+.navWords:after{
+    display:block;
+    content: '';
+    border-bottom: solid 3px white;
+    transform: scaleX(0);
+    transition: transform 300ms ease-in-out;
+}
+.navWords:hover:after {
+    transform: scaleX(1);
+}
+
+.baseWord{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #FFFFFF!important;
+}
+
+.home{
+    overflow: hidden;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: #002547;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    /*line-height: 160%;*/
+    text-transform: capitalize;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+.homeImgPos{
+    position: absolute;
+    top: -5%;
+    left: 0;
+    opacity: 0;
+    display: none;
+}
+
+.headerLorem{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    /*line-height: 160%;*/
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #1D92FF;
+}
+
+.headerh1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.realWord{
+    color: #1D92FF;
+    /*border-bottom: 2px solid blue!important;*/
+}
+.realLine{
+    width: 19%;
+    position: absolute;
+    top: 45%;
+    right: 25%;
+}
+#real {
+
+    height: 2px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, #1D92FF 50% , white 50%);
+}
+.saasWord{
+    color: #1D92FF;
+}
+.commerceWord{
+    color: white;
+    border-bottom: 1px solid white;
+}
+.btnTwo:hover{
+    color: white;
+    background-color: #1D92FF;
+}
+.btnTwo{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    border: 1px solid #1D92FF;
+    background-color: white;
+    color: #1D92FF;
+    border: 1px solid #1D92FF;
+    width: 205px;
+    height: 53px;
+
+}
+.btnThree{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    border: 1px solid #1D92FF;
+    margin-left: 5%;
+    width: 205px;
+    height: 53px;
+    color: white;
+}
+.btnThree:hover{
+    background-color: #1D92FF;
+    color: #1D92FF;
+    border: 1px solid #1D92FF;
+    transition: 0.5s;
+}
+
+
+.homeFooter{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.5);
+    border-style: dashed;
+    border-right: none;
+    border-bottom: none;
+    /*border-left: 1px dashed gray;*/
+    /*padding-top: unset;*/
+}
+.homeFooterCol{
+    padding: 0!important;
+    border-top: 0.5px solid rgba(121, 121, 121, 0.92)!important;
+
+}
+.arrowImg{
+    position: absolute;
+    left: 10%;
+}
+
+.compImg{
+    position: absolute;
+    top: -36%;
+    right: -189px;
+
+
+}
+.keyboardImg{
+    position: absolute;
+    right: 20%;
+    top: 42%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.company{
+    padding: 80px 0;
+    background-color: rgba(241, 241, 241, 0.45);
+}
+.logoBrand{
+    padding-bottom: 10%;
+}
+.logoCards{
+    display: flex;
+}
+.logoCard{
+    flex: auto;
+}
+.cardLess{
+    z-index: 1;
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 4px 6px 60px 4px rgba(99, 99, 99, 0.54);
+}
+.lessHeader{
+    /*padding:x!important;*/
+    /*padding-left: 0!important;*/
+    padding-top: 20px;
+    /*color: white;*/
+    background-color: #01040C;
+    border-radius: 10px!important;
+}
+.lessWord{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: #E7E7E7;
+}
+.lessText{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 8px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+.lessBody{
+    background-color: rgba(202, 214, 255, 0.65);
+    border-radius: 10px!important;
+    padding-top: 10px!important;
+}
+.bodyPrice{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: capitalize;
+    color: #01070D;
+    opacity: 0.4;
+}
+.nameLessBody{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #01070D;
+    opcity: 0.8;
+}
+.locationLess{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #01070D;
+    opacity: 0.4;
+}
+.amountWord{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    color: #01070D;
+    opacity: 0.6;
+}
+
+.priceLess{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    /*line-height: 19px;*/
+    color: #01070D;
+    margin-bottom: 0!important;
+}
+.pendingWord{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 12px;
+    color: #006ED5;
+}
+.titel{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 14px;
+    color: #000000;
+    opacity: 0.4;
+}
+.cleanup{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 14px;
+    color: #000000;
+    opacity: 0.6;
+}
+.extra{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 14px;
+    color: #000000;
+    opacity: 0.4;
+}
+.footerWord{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0!important;
+    color: #01070D;
+    opacity: 0.4;
+}
+.notesWord{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 14px;
+    color: #01070D;
+    opacity: 0.6;
+}
+.total{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 14px;
+    color: #01070D;
+    opacity: 0.7;
+}
+.priceAll{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 14px;
+    color: #01070D;
+    opacity: 0.7;
+}
+.loremIpsumWord{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #1D92FF;
+}
+.cardLorem{
+    background-color: white;
+    background-color: unset;
+}
+.headerLoremIpsum{
+    padding-left: 12%;
+    background-color: unset;
+}
+.loremh1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 135%;
+    text-transform: capitalize;
+    color: #000000;
+}
+.saasAreWord{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 135%;
+    text-transform: capitalize;
+    color: #000000;
+}
+.textOneOff{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: rgba(1, 7, 13, 0.7);
+}
+.eCommerce{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: rgba(1, 7, 13, 0.7);
+}
+.loremBody{
+    padding-left: 12%;
+    background-color: unset;
+}
+.cardCircle{
+    justify-content: center;
+    text-align: center;
+    width: 32px;
+    height: 32px;
+    background-color: rgba(111, 187, 255, 0.29);
+    /*opacity: 0.05;*/
+    border-radius: 60%;
+}
+.wordLoremIpsum{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #01070D;
+    opacity: 0.5;
+}
+.bgCard{
+    position: absolute;
+    width: 268px;
+    height: 268px;
+    left: 45%;
+    top: -10%;
+    border-radius: 50%;
+    background: rgba(200, 216, 255, 0.41);
+}
+.snakeLine{
+    position: absolute;
+    left: 78%;
+    top: -8%;
+}
+
+.vektorCard{
+    border-radius: 10px;
+    padding-top: 15%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    padding-right: 0!important;
+    box-shadow: 0 0 10px 2px rgba(156, 156, 156, 0.54);
+}
+
+.cardVektor{
+    display: flex;
+}
+.proporsalWord{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #01070D;
+    opacity: 0.7;
+}
+.cardPicONe{
+    background: #1D92FF;
+    opacity: 0.15;
+    border-radius: 4.5px 4.5px 0px 0px;
+    padding: 0!important;
+    width: 9.78px;
+    height: 38.45px;
+}
+.aaa{
+    width: 9.78px;
+    height: 38.45px;
+    padding: 0!important;
+}
+.rentangImg{
+    vertical-align: bottom;
+}
+.numberOne{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #01070D;
+}
+.number{
+    margin-left: 3.5%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #01070D;
+}
+/*.posRelative{*/
+/*    position: relative !important;*/
+/*}*/
+.hoverHiddenOne{
+    position: absolute;
+    left: 32%;
+    top: 58%;
+    z-index: 1;
+}
+
+.fourSection{
+    padding: 80px 0;
+    padding-bottom: unset;
+    background-color: rgba(241, 241, 241, 0.45);
+}
+
+.lastSevenDay{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #01070D;
+    opacity: 0.6;
+}
+.weekLoremWords{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #01070D;
+    opacity: 0.6;
+}
+.ipsumIsWord{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #01070D;
+    opacity: 0.6;
+}
+.cardFourSec{
+
+    background-color: unset;
+}
+.cardHeaderFourSec{
+ background-color: unset;
+}
+
+.earningsWord{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: capitalize;
+    color: #000000;
+    opacity: 0.6;
+}
+.money{
+    padding-top: 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #000000;
+    opacity: 0.9;
+}
+.viewsWord{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    text-transform: capitalize;
+    color: #000000;
+    opacity: 0.6;
+}
+.growthWord{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    text-transform: capitalize;
+    color: #01070D;
+}
+.vektorSix{
+    text-align: right;
+}
+.vektorSeven{
+padding-left: unset;
+}
+.numberb{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: capitalize;
+    color: #01070D;
+}
+.numberOneb{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: capitalize;
+    color: #01070D;
+}
+.statisticWord{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #000000;
+    opacity: 0.6;
+}
+
+.paymentWord{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.hoverHiddenTwo{
+    position: absolute;
+    z-index: 1;
+    right: 37%;
+    bottom: -165%;
+}
+.hoverHiddenThree{
+    position: absolute;
+    z-index: 1;
+    right: 25%;
+    bottom: -198%;
+}
+.hoverHiddenFour{
+    position: absolute;
+    z-index: 1;
+    right: 1%;
+    bottom: -187%;
+}
+.bacImg{
+    position: absolute;
+    right: 1%;
+    bottom: -205%;
+    opacity: 0.4;
+}
+
+
+
+
+
+
+
+
+.bacNone{
+    background-color: unset;
+}
+.accordion {
+    font-style: normal;
+    font-weight: normal;
+    font-family: Poppins;
+    background-color: rgba(238, 238, 238, 0.59);
+    color: #373737;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: white!important;
+    border: unset!important;
+
+}
+
+.accordion:after {
+    content: ' \2B9F';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    border: unset!important;
+}
+
+.active:after {
+    content: "\2B9D";
+}
+
+.panel {
+    font-family: Poppins;
+    padding: 0 18px;
+    font-style: normal;
+    font-weight: normal;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+    font-size: 16px;
+    color: #01070D;
+    opacity: 0.8;
+}
+.btnFree{
+    width: 198px;
+    height: 49px;
+    border-radius: 4px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    font-size: 16px;
+background-color: #1D92FF;
+    color: white;
+
+}
+
+.btnRead{
+    width: 198px;
+    height: 49px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    text-transform: capitalize;
+    border: 1px solid #1D92FF;
+    color: #1D92FF;
+}
+.btnFree:hover{
+    background-color: white;
+    color: #1D92FF;
+    border: 1px solid #1D92FF;
+}
+.btnRead:hover{
+    background-color: #1D92FF;
+    color: white;
+}
+.whiteFooter{
+    background-color: unset;
+}
+
+
+.fiveSection{
+    padding: 60px 0;
+    background-color: rgba(241, 241, 241, 0.45);
+}
+.fiveLorem{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #1D92FF;
+}
+.fiveh1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 135%;
+    text-align: center;
+    color: #000000;
+}
+.fivepText{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+}
+.fiveColSeven{
+    margin-left: 22%;
+}
+.cardTransform{
+    width: 80px;
+    height: 80px;
+    transform: rotate(60grad);
+    margin-left: 35%;
+    margin-top: 10%;
+   background-color: rgba(29, 146, 255, 0.14);
+    border: 0.3px solid rgba(0, 43, 83, 0.53);
+}
+.imgTransform{
+    margin-top: 30%;
+    margin-left: 0%;
+    transform: rotate(-60grad);
+}
+.fiveSecCardh5{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #000000;
+}
+.cardBodyP{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    /*text-align: center;*/
+    color: rgba(1, 7, 13, 0.7);
+}
+.borderCol{
+    border-style: dashed dashed none dashed;
+    border-color: rgba(0, 0, 255, 0.17);
+}
+
+.sixSection{
+    padding: 80px 0;
+    background-color: rgba(241, 241, 241, 0.45);
+    padding-bottom: 20%;
+}
+.secSixh1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 135%;
+    text-transform: capitalize;
+    color: #01070D;
+}
+.secSixp{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: rgba(1, 7, 13, 0.7);
+}
+
+.sixSech3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 150%;
+    color: #01070D;
+    text-align: center;
+}
+.sixSecP{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 160%;
+    text-align: center;
+    color: rgba(1, 7, 13, 0.7);
+}
+.sixSech1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 39px;
+    line-height: 135%;
+    color: #01070D;
+    text-align: center;
+}
+.btnMonthly{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160%;
+    color: #01070D;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+.btnAnnually{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160%;
+    color: rgba(1, 7, 13, 0.4);
+    border-radius: 20px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.btnCenter{
+    margin-left: 20%;
+    border: 0.5px solid rgba(141, 141, 141, 0.8);
+    border-radius: 20px;
+    width: 69%;
+}
+
+
+
+.containera {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.containera input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    border: 0.5px solid rgba(0, 0, 255, 0.17);
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 28px;
+    width: 28px;
+    background-color: rgb(21, 38, 255);
+}
+.checkmark{
+    background-color: rgba(95, 176, 255, 0.25);!important;
+}
+.containera:hover input ~ .checkmark{
+    background-color: white;
+}
+
+/* On mouse-over, add a grey background color */
+.containera:hover input ~ .checkmark {
+    background-color: rgba(44, 40, 255, 0.27);
+}
+
+/* When the checkbox is checked, add a blue background */
+.containera input:checked ~ .checkmark {
+    background-color: rgba(0, 120, 255, 0);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.containera input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.containera .checkmark:after {
+    left: 40%;
+    top: 20%;
+    width: 6px;
+    height: 12px;
+    border: solid rgba(19, 19, 162, 0.44);
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.checkP{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+    opacity: 0.6;
+}
+
+
+.btnBuy{
+    padding-bottom: 3%;
+    padding-top: 3%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    border-radius: 4px;
+    background-color: #1D92FF;
+}
+.btnBuy:hover{
+    background-color: white;
+    color: #1D92FF;
+    border: 1px solid #1D92FF;
+}
+
+.cardBuy{
+    padding: 5%;
+    border: 0.5px solid rgba(0, 0, 255, 0.14);
+    border-radius: 10px;
+    transition: 0.8s;
+}
+.cardBuyScale{
+    padding: 5%;
+    border: 0.5px solid rgba(0, 0, 255, 0.14);
+    border-radius: 10px;
+   transform: scale(1.08);
+    background: linear-gradient(180deg, #1D92FF 0%, #002648 0.01%, #002547 100%);
+    box-shadow: 0px 10px 10px rgba(173, 173, 173, 0.5);
+
+}
+
+
+/*.cardBuy:hover{*/
+/*    transform: scale(1.1);*/
+/*    transition: 0.8s;*/
+/*     background: linear-gradient(180deg, #1D92FF 0%, #002648 0.01%, #002547 100%);*/
+/*    !*background-color: blue!important;*!*/
+/*    box-shadow: 0px 20px 100px rgba(173, 173, 173, 0.5);*/
+/*}*/
+.cardBuyScale .sixSech3{
+    color: white;
+}
+.cardBuyScale .sixSecP{
+    color: rgba(255, 255, 255, 0.7);
+}
+.cardBuyScale .sixSech1{
+    color: white;
+}
+.cardBuyScale .btnMonthly{
+    color: white;
+    background-color: #1D92FF;
+}
+.cardBuyScale .btnAnnually{
+    color: #FFFFFF;
+}
+/*.cardBuy:hover .btnMonthly:hover{*/
+/*    background-color: white;*/
+/*    color: blue;*/
+/*}*/
+/*.cardBuy:hover .btnAnnually:hover{*/
+/*    background-color: #1D92FF;*/
+/*    color: white;*/
+/*}*/
+.cardBuyScale .checkP{
+    color: white;
+    opacity: 1;
+}
+.cardBuyScale .btnBuy {
+    color: #1D92FF;
+    background-color: white;
+}
+
+.cardBuyScale .btnBuy:hover{
+    background-color: #1D92FF;
+    color: white;
+}
+/*}*/
+/*.cardBuy:hover .btnBuy:hover{*/
+/*    color: white;*/
+/*    background-color: blue;*/
+/*}*/
+.cardBuyScale .containera input:checked ~ .checkmark{
+ background-color: white!important;
+}
+
+
+
+
+.sevenSection{
+    padding: 80px 0;
+    background: #070C11;
+    opacity: 0.95;
+}
+
+
+.footerBase{
+ color: white;
+}
+.cardCircrleFooter{
+    background-color: white;
+    width: 42px;
+    height: 42px;
+    border-radius: 20px;
+}
+.footerP{
+    color: rgba(255, 255, 255, 0.7);
+    text-transform: capitalize;
+}
+.footerh6{
+    font-family: Poppins;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+}
+.footerLink{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+.footerLink:hover{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.inputMail{
+    width: 100%;
+    padding: 5%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    /*opacity: 0.8;*/
+    background-color: unset;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+.emailh3{
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.emailP{
+    padding-right: 34%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    color: #aeaeae;
+}
+
+.bigInputMail{
+    background-color: unset;
+    border: 1px solid #e4e4e4;
+    padding: 5% 6%;
+    border-radius: 40px;
+   color: white;
+}
+.emailBtn{
+    width: 86px;
+    height: 52px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    font-size: 20px;
+    position: absolute;
+    top: 18%;
+    right: 4%;
+}
+.emailContainer{
+    position: absolute;
+    border-radius: 10px;
+    background-color: #002547;
+    padding: 40px 50px;
+    bottom: 94%;
+    left: 13%;
+}
+
+.headerLoremIpsumm{
+    display: none;
+}
+input:focus{
+    outline: none;
+}
+.emailBtn:hover{
+    background-color: rgb(180, 189, 255);
+}
+.imgSecFour{
+    width: 140%;
+}
+
+
+
+
+
+
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 110px;
+    height: 40px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(239, 239, 239, 0.46);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: unset;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+
+input:checked + .slider {
+    background-color: white;
+    color: black;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 4px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 160%;
+    color: #727272;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+.card-btnCheck{
+    border: 1px solid rgba(128, 128, 128, 0.58);
+    height: 42px;
+    border-radius: 34px;
+    width: 235px;
+}
+
+
+
+
+
+
+.switch1 {
+    position: relative;
+    display: inline-block;
+    width: 110px;
+    height: 40px;
+}
+
+.switch1 input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider1 {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: unset;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider1:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: unset;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+
+input:checked + .slider1 {
+    background-color: #1D92FF;
+    color: white;
+}
+
+input:focus + .slider1 {
+    box-shadow: 0 0 4px #1D92FF;
+}
+
+input:checked + .slider1:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider1.round1 {
+    border-radius: 34px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 160%;
+    color: #d1d1d1;
+}
+
+.slider1.round1:before {
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.toggle{
+    display: none;
+}
+
+.sidepanel  {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidepanel a:hover {
+    color: #0d29ff;
+}
+
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #0000ffb5;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color:#444;
+}
+
+.fourSection{
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 445px) {
+    .btnThree{
+        margin-top: 0!important;
+    }
+}
+@media screen and (max-width: 372px) {
+    .footerh6 {
+        font-size: 83% !important;
+    }
+}
+@media screen and (max-width: 349px) {
+   .realLine{
+       display: none!important;
+   }
+    .footerh6{
+        font-size: 70% !important;
+    }
+    .footerLink{
+        font-size: 65% !important;
+    }
+}
+
+@media screen and (min-width: 469px) {
+    .btnRead{
+        margin-top: unset!important;
+    }
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+    .cardBodyP{
+        font-size: 14px;
+    }
+    .fiveSecCardh5{
+        font-size: 18px;
+    }
+    .card-btnCheck{
+        border: 1px solid rgba(128, 128, 128, 0.58)!important;
+        height: 42px!important;
+        border-radius: 34px;
+        width: 227px!important;
+    }
+
+    .switch1 {
+        position: relative;
+        display: inline-block;
+        width: 110px;
+        height: 40px;
+    }
+
+    .switch1 input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+    .slider1 {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: unset;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+    .slider1:before {
+        position: absolute;
+        content: "";
+        height: 26px;
+        width: 26px;
+        left: 4px;
+        bottom: 4px;
+        background-color: unset;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+
+    input:checked + .slider1 {
+        background-color: blue;
+        color: white;
+    }
+
+    input:focus + .slider1 {
+        box-shadow: 0 0 4px #2196F3;
+    }
+
+    input:checked + .slider1:before {
+        -webkit-transform: translateX(26px);
+        -ms-transform: translateX(26px);
+        transform: translateX(26px);
+    }
+
+    /* Rounded sliders */
+    .slider1.round1 {
+        border-radius: 34px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 160%;
+        color: #d1d1d1;
+    }
+
+    .slider1.round1:before {
+        border-radius: 50%;
+    }
+
+    body h1 {
+            font-size: 28px!important;
+    }
+
+    .secSixp{
+        margin-bottom: unset!important;
+    }
+
+    .cardTransform{
+        height: 100% !important;
+    }
+    .headerLoremIpsumm{
+        display: none!important;
+    }
+    .centerCircle {
+        margin-left: 40% !important;
+        margin-bottom: 5% !important;
+    }
+    .realLine{
+        width: 17%;
+        position: absolute;
+        top: 45%;
+        right: 31%;
+    }
+    .borderCol{
+        border: none;
+    }
+    .homeImgPos{
+        display: none;
+    }
+    .logoCards{
+        display: unset;
+    }
+    .company .container .logoCards .logoCard img{
+        display: none;
+    }
+    .logoCard{
+        flex: unset;
+    }
+    .fiveColSeven{
+        margin-left: unset;
+    }
+    .btnOne{
+        position: unset;
+
+    }
+    .card-btn{
+        text-align: center;
+    }
+    .btnThree{
+        margin-top: 5%;
+        margin-left: 0;
+    }
+
+
+    .compImg{
+        display: none;
+    }
+    .keyboardImg{
+        display: none;
+    }
+    .loremtext{
+        text-align: center;
+    }
+    .homeFooterText{
+        text-align: center;
+    }
+    .homeFooter{
+        border: none;
+        text-align: center;
+    }
+
+    .home{
+        padding-bottom: 12%;
+    }
+    .company{
+        padding-bottom: 0;
+        padding-top: 12%;
+    }
+    .headerLoremIpsum{
+        display: block!important;
+        text-align: center;
+        padding-top: 20%;
+    }
+    .amountCenter{
+        text-align: left!important;
+
+    }
+    .amountWord{
+        margin-top: 0% !important;
+    }
+   .priceLess{
+       text-align: right!important;
+   }
+   .pendingWord{
+       text-align: right!important;
+   }
+   .lessBody{
+       margin-top: 5%;
+       margin-bottom: 5%;
+   }
+   .titel{
+       padding-left: 2%;
+       margin-bottom: 2%;
+   }
+   .cleanup{
+       padding-left: 2%;
+       margin-bottom: 2%;
+   }
+   .saasAreWord{
+       font-size: 28px;
+       font-family: Poppins;
+       font-style: normal;
+       font-weight: 600;
+   }
+   .extra{
+       padding-left: 2%;
+   }
+   .loremBody{
+       text-align: center!important;
+       padding-top: 0!important;
+   }
+
+   .fourSection{
+       padding-top: 30px;
+   }
+ .loremh1{
+     margin-top: 2%;
+ }
+   .cardHeaderFourSec{
+       text-align: center;
+   }
+   .bacNone{
+       width: 100% !important;
+   }
+   .whiteFooter{
+       text-align: center;
+   }
+   .btnRead{
+       margin-top: 5%;
+   }
+   .emailContainer{
+    display: none;
+   }
+   .arrowImg{
+       display: none;
+   }
+   .homeFooterCol{
+       margin-top: 8%;
+   }
+   .homeFooter{
+       margin-top: 2%!important;
+   }
+   .fiveSection{
+       padding-top: 5%;
+   }
+   .sixSection{
+       padding-top: 5%;
+       padding-bottom: 20% !important;
+   }
+   .sevenSection{
+       padding: 40px 0;
+   }
+   .cardCircrleFooter{
+       display: none;
+   }
+   .footerBase{
+       font-size: 2rem;
+       text-align: center;
+   }
+   .footerP{
+       text-align: center;
+      font-size: 1.2rem;
+       color: #e2e2e2;
+       padding-bottom: 3%;
+       margin-left: unset!important;
+   }
+.followUs{
+    display: none;
+}
+.footerh6{
+    font-size: 88%;
+}
+.footerLink{
+    font-size: 80%;
+}
+   .inputMail{
+       margin-top: 6%;
+   }
+   .iconCard{
+      margin-left: 25%;
+       margin-top: 5%;
+   }
+   .sevenDayCard{
+       padding-left: 8%;
+       padding-top: 5%;
+       padding-bottom: 5%;
+       padding-right: 5%;
+       margin-top: 15%;
+   }
+   .lastSevenDay{
+       text-align: center;
+   }
+   .amount{
+       margin-top: 1.5%;
+       height: 15px;
+   }
+   .weekLoremWords{
+       font-size: 16px;
+       margin-bottom: 1%;
+   }
+   .ipsumIsWord{
+       margin-bottom: 1%;
+       font-size: 16px;
+       margin-top: 6%;
+   }
+   .totalBalanceCard{
+       margin-top: 6%;
+   }
+   .cardBuyScale{
+       margin-top: 10%;
+        margin-bottom: unset!important;
+   }
+   .cardBuy{
+       margin-top: 10%;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 992px){
+
+
+    input:checked + .slider1{
+        background-color: #1D92FF!important;
+    }
+    .slider1{
+        background-color: rgba(169, 169, 169, 0.64) !important;
+    }
+
+    .switch{
+        margin-left: unset!important;
+    }
+    .switch1{
+        margin-left: unset!important;
+    }
+    .card-btnCheck{
+        background-color: unset!important;
+        border: unset;
+        height: 85px;
+        border-radius: 34px;
+        width: 235px;
+    }
+
+
+
+    .toggle{
+        display: block!important;
+    }
+    .company .row{
+        justify-content: center!important;
+    }
+    .cardBuyScale{
+        margin-bottom: 40%;
+    }
+    .compImg{
+        display: none;
+    }
+    .keyboardImg{
+        display: none;
+    }
+    .bgCard{
+        display: none;
+    }
+    .snakeLine{
+        display: none;
+    }
+    .hoverHiddenOne{
+        display: none;
+    }
+    .hoverHiddenTwo{
+        display: none;
+    }
+    .hoverHiddenThree{
+        display: none;
+    }
+    .hoverHiddenFour{
+        display: none;
+    }
+    .logoBrand{
+        display: none;
+    }
+    .bacImg{
+        display: none;
+    }
+    .realLine{
+        display: none;
+    }
+    .homeFooterCol{
+        margin-top: 8%;
+    }
+    .headerLoremIpsum{
+        margin-top: 15%;
+        text-align: center;
+    }
+    .centerCircle{
+       margin-left: 30%;
+        margin-bottom: 5%;
+    }
+    .headerLoremIpsum{
+        display: none;
+    }
+    .headerLoremIpsumm{
+        display: block;!important;
+        text-align: center;
+        background-color: unset;
+        margin-bottom: 5%;
+        padding-top: 0;
+    }
+    .cardHeaderFourSec{
+        text-align: center;
+    }
+    .amount{
+        margin-top: 1%;
+        height: 1%;
+    }
+    .sevenDayCard{
+        margin-top: 12%;
+        padding: 5%;
+    }
+    .lastSevenDay{
+        text-align: center;
+    }
+    .weekLoremWords{
+        font-size: 16px;
+    }
+    .ipsumIsWord{
+        margin-top: 4%;
+        font-size: 16px;
+    }
+    .totalBalanceCard{
+        margin-top: 4%;
+    }
+    .fiveSection{
+        padding-top: 5%;
+    }
+    .fiveColSeven{
+        margin-left: unset;
+    }
+    .cardTransform{
+        width: 80px;
+        height: 80px;
+    }
+    .footerP{
+        margin-top: 2%;
+        margin-bottom: 4%;
+        text-align: center;
+    }
+    .sixSection{
+        padding-bottom: 35%;
+    }
+    .followUs{
+        display: none;
+    }
+    .inputMail{
+        margin-top: 4%;
+    }
+    .iconCard{
+        text-align: center;
+        margin-top: 4%;
+        margin-left: 18%;
+    }
+    .imgSecFour{
+        display: none;
+    }
+
+    .secSixp{
+        margin-bottom: 10%;
+    }
+
+    .emailContainer{
+        left: 5% !important;
+    }
+    .footerP{
+        margin-left: 12%;
+    }
+    .imgIcon{
+        width: 20% !important;
+    }
+    .cardLess{
+        z-index: unset;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1200px){
+    .vektorCard{
+        display: none;
+    }
+    .fourSection{
+        overflow: hidden;
+    }
+    .sixSection{
+        padding-bottom: 30%;
+    }
+    .emailContainer{
+        left: 3%;
+    }
+    .compImg{
+        width: 150% !important;
+        position: absolute;
+        top: -3% !important;
+        right: -25% !important;
+    }
+    .keyboardImg{
+    position: absolute;
+    right: -3% !important;
+    top: 41% !important;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .compImg{
+        position: absolute;
+        top: -36%;
+        right: -189px;
+
+
+    }
+    .keyboardImg{
+        position: absolute;
+        right: 20%;
+        top: 42%;
+    }
+
+}
+
+@media screen and (max-width: 1318px){
+    .emailContainer{
+        left: 3%;
+    }
+}
+@media screen and (min-width: 1200px){
+    .vektorCard{
+        display: none;
+    }
+}
+
+
+
